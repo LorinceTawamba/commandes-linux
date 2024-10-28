@@ -17,15 +17,14 @@ La commande **PWD** permet de déterminer ou est ce qu'on se trouve dans son arb
 >
 >- PWD : **P**rint **W**orking **D**irectory.  
 
-- **Syntaxe :**
-   - Résultat affiché sur la sortie standard.
+- **Résultat affiché sur la sortie standard**
 
 ```shell
 pwd 
 ```
 
-   - Résultat redirigé vers un fichier. 
- 
+- **Résultat redirigé vers un fichier**
+
 ```shell
 pwd > nom-du-fichier.txt
 ```
