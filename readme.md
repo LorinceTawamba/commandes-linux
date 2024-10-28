@@ -10,12 +10,17 @@
 - [Authors](#Authors)
 - [License](#License) 
 
-## Avoir de l'aide sur une commande  
+## PWD 
+La commande **PWD** permet de déterminer ou est ce qu'on se trouve dans son arborescence de repertoire.  
+
+>[!NOTE]
+>
+>- PWD : **P**rint **W**orking **D**irectory.  
 
 - **Syntaxe :**
 
 ```shell
-git help nom-de-votre-commande
+pwd 
 ```
 
 
