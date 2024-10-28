@@ -12,6 +12,17 @@
 - [Commande CLEAR](#Commande-CLEAR)
 - [Commande LS](#Commande-LS)
 - [Commande CD](#Commande-CD)
+- [Commande MKDIR](#Commande-MKDIR)
+- [Commande TOUCH](#Commande-TOUCH)
+- [Commande CP](#Commande-CP)
+- [Commande HELP](#Commande-HELP)
+- [Commande MV](#Commande-MV)
+- [Commande RM](#Commande-RM) 
+- [Commande FIND](#Commande-FIND)
+- [Commande GREP](#Commande-GREP)
+- [Echainement des commandes](#Echainement-des-commandes)
+- [Commande HEAD](#Commande-HEAD)
+- [Commande WC](#Commande-WC)
 - [Authors](#Authors)
 - [License](#License) 
 
@@ -121,8 +132,139 @@ mkdir -p nom-du-repertoire/nom-du-sous-repertoire
 
 >[!TIP]
 >
->- -p : Cette option permet de créer le repertoir parent s'il n'existe pas. 
+> -p : Cette option permet de créer le repertoir parent s'il n'existe pas. 
 
+## Commande ***TOUCH*** 
+La commande **TOUCH** permet de créer un nouveau fichier.
+
+- ***Cette syntaxe permet de créer un nouveau fichier.***
+
+```shell
+touch nom-du-fichier.txt 
+```
+
+- ***Cette syntaxe permet de créer un nouveau fichier dans un repertoire spécifique.***
+
+```shell
+touch nom-du-repertoire/nom-du-fichier.txt 
+```
+
+## Commande ***ECHO*** 
+La commande **ECHO** permet d'écrire un contenu sur la sortie standard ou dans un fichier. 
+
+- ***Cette syntaxe permet d'écrire un contenu sur la sortie standard.***
+
+```shell
+echo "Votre contenu" 
+```
+
+- ***Cette syntaxe permet d'écrire un contenu dans un fichier existant.***
+
+```shell
+echo "Votre contenu" > nom-du-fichier.txt 
+```
+
+## Commande ***CP*** 
+La commande **CP** permet de copier un fichier d'une source à un autre. 
+
+>[!NOTE]
+>
+>- CP : **C**opy. 
+
+- ***Cette syntaxe permet d'écrire un contenu sur la sortie standard.***
+
+```shell
+cp nom-du-fichier.txt destination/ 
+``` 
+
+## Commande ***HELP*** 
+La commande **HELP** permet d'avoir la documentation sur la commande. 
+
+- ***Cette syntaxe permet d'avoir la documentation sur la commande MKDIR.***
+
+```shell
+mkdir --help 
+```
+
+## Commande ***MV*** 
+La commande **MV** permet de déplacer ou renomer un fichier. 
+
+>[!NOTE]
+>
+>- MV : **M**ove. 
+
+- ***Cette syntaxe permet de déplacer ou renomer un fichier.***
+
+```shell
+mv nom-du-fichier-source.txt  nom-du-fichier-destination.txt 
+```
+
+## Commande ***RM*** 
+La commande **RM** permet de supprimer un fichier. 
+
+- ***Cette syntaxe permet de déplacer ou renomer un fichier.***
+
+```shell
+rm nom-du-fichier.txt 
+```
+
+## Commande ***FIND*** 
+La commande **FIND** permet de rechercher un fichier. 
+
+- ***Cette syntaxe permet de faire la recherche a partir d'une source.***
+
+```shell
+find source-de-la-recherche -name "element-de-la-recherche"  
+```
+
+## Commande ***GREP*** 
+La commande **GREP** permet de faire la recherche d'une chaine dans un fichier. 
+
+- ***Cette syntaxe permet de faire la recherche d'une chaine dans un fichier.***
+
+```shell
+grep "element-de-la-recherche" cyble-de-la-recherche  
+```
+
+- ***Exemple.***
+
+```shell
+grep "projet" *.md  
+```
+
+## Enchainement des commandes 
+
+>[!TIP]
+>
+> && : permet d'enchainer les commandes les une a la suite des autres.  
+
+- ***Cette syntaxe permet de faire la recherche d'une chaine dans un fichier.***
+
+```shell
+mkdir test && cd test   
+```
+
+## Commande ***HEAD*** 
+La commande **HEAD** permet de lire une section ou une partie d'un fichier. 
+
+- ***Cette syntaxe permet de lire les 5 premieres lignes de mon fichier.***
+
+```shell
+head -n 5 nom-de-mon-fichier.txt
+```
+
+## Commande ***WC*** 
+La commande **WC** permet de compter le nombre de mots dans un fichier. 
+
+>[!NOTE]
+>
+>- WC : **W**ord **C**ount. 
+
+- ***Cette syntaxe permet de compter le nombre de mots dans un fichier.***
+
+```shell
+wc nom-du-fichier.txt  
+```
 
 # Authors
 
