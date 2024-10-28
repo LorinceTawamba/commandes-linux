@@ -8,8 +8,8 @@
 
 >[!NOTE]
 >
->En général, la plus part des serveurs web ainsi que des serveurs d'application tournent sur Linux. Il est donc bien important pour tout dévéloppeur d'avoir en main les commandes ussuelles pour une prise en main rapide. 
->Voici donc quelques commandes usuelles sous Linux.
+>- En général, la plus part des serveurs web ainsi que des serveurs d'application tournent sur Linux. Il est donc bien important pour tout dévéloppeur d'avoir en main les commandes ussuelles pour une prise en main rapide. 
+>- Voici donc quelques commandes usuelles sous Linux.
 
 ## Introduction 
 
