@@ -24,10 +24,16 @@ La commande **PWD** permet de déterminer ou est ce qu'on se trouve dans son arb
 pwd 
 ```
 
-- ***Cette syntaxe redirige le résultat de la commande vers un fichier***
+- ***Cette syntaxe redirige le résultat de la commande vers le début d'un fichier et si le fichier existe déja, il sera préalablement vidé de son contenu.***
 
 ```shell
 pwd > nom-du-fichier.txt
+```
+
+- ***Cette syntaxe redirige le résultat de la commande vers la fin d'un fichier***
+
+```shell
+pwd >> nom-du-fichier.txt
 ```
 
 ## Commande ***CAT*** 
