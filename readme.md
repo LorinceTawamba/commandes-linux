@@ -18,7 +18,7 @@ La commande **PWD** permet de déterminer ou est ce qu'on se trouve dans son arb
 >
 >- PWD : **P**rint **W**orking **D**irectory.  
 
-- ***Cette syntaxe affiche le résultat sur la sortie standard***
+- ***Cette syntaxe affiche le résultat de la commande sur la sortie standard.***
 
 ```shell
 pwd 
