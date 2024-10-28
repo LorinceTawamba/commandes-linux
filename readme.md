@@ -7,6 +7,7 @@
 
 ## Table de matières 
 
+- [Commande PWD](#Commande-PWD)
 - [Authors](#Authors)
 - [License](#License) 
 
@@ -17,29 +18,29 @@ La commande **PWD** permet de déterminer ou est ce qu'on se trouve dans son arb
 >
 >- PWD : **P**rint **W**orking **D**irectory.  
 
-- **Résultat affiché sur la sortie standard**
+- ***Cette syntaxe affiche le résultat sur la sortie standard***
 
 ```shell
 pwd 
 ```
 
-- **Résultat redirigé vers un fichier**
+- ***Cette syntaxe redirige le résultat de la commande vers un fichier***
 
 ```shell
 pwd > nom-du-fichier.txt
 ```
 
 ## Commande ***CAT*** 
-La commande **CAT** permet de rediriger le résultat d'une commande vers un fichier.  
+La commande **CAT** permet d'afficher le contenu d'un fichier.   
 
 >[!NOTE]
 >
->- CAT : **P**rint **W**orking **D**irectory.  
+>- CAT : Concatenate.  
 
-- **Syntaxe :**
+- **Résultat affiché sur la sortie standard**
 
 ```shell
-pwd 
+cat 
 ```
 
 
