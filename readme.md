@@ -43,10 +43,10 @@ La commande **CAT** permet d'afficher le contenu d'un fichier.
 >
 >- CAT : Concatenate.  
 
-- **Résultat affiché sur la sortie standard**
+- ***Cette syntaxe affiche le contenu du fichier sur la sortie standard.***
 
 ```shell
-cat 
+cat nom-du-fichier.txt
 ```
 
 
