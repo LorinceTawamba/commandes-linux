@@ -10,7 +10,7 @@
 - [Authors](#Authors)
 - [License](#License) 
 
-## PWD 
+## Commande ***PWD*** 
 La commande **PWD** permet de déterminer ou est ce qu'on se trouve dans son arborescence de repertoire.  
 
 >[!NOTE]
