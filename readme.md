@@ -7,7 +7,11 @@
 
 ## Table de matières 
 
-- [Commande PWD](#Commande-PWD)
+- [Commande PWD](#Commande-PWD) 
+- [Commande CAT](#Commande-CAT) 
+- [Commande CLEAR](#Commande-CLEAR)
+- [Commande LS](#Commande-LS)
+- [Commande CD](#Commande-CD)
 - [Authors](#Authors)
 - [License](#License) 
 
@@ -24,7 +28,7 @@ La commande **PWD** permet de déterminer ou est ce qu'on se trouve dans son arb
 pwd 
 ```
 
-- ***Cette syntaxe redirige le résultat de la commande vers le début d'un fichier et si le fichier existe déja, il sera préalablement vidé de son contenu.***
+- ***Cette syntaxe redirige le résultat de la commande vers le début d'un fichier et si le fichier existe déjà, il sera préalablement vidé de son contenu.***
 
 ```shell
 pwd > nom-du-fichier.txt
@@ -48,6 +52,76 @@ La commande **CAT** permet d'afficher le contenu d'un fichier.
 ```shell
 cat nom-du-fichier.txt
 ```
+
+## Commande ***CLEAR*** 
+La commande **CLEAR** permet d'effacer l'écran.   
+
+- ***Cette syntaxe efface l'écran.***
+
+```shell
+clear
+```
+
+## Commande ***LS*** 
+La commande **LS** permet de lister tous les repertoire se trouvant dans le repertoire ou je me situe actuellement.  
+
+>[!NOTE]
+>
+>- PWD : **P**rint **W**orking **D**irectory.  
+
+- ***Cette syntaxe affiche la liste des repertoires et fichiers sur la sortie standard.***
+
+```shell
+ls 
+```
+
+- ***Cette syntaxe affiche la liste des repertoires et fichiers avec leurs propriété sur la sortie standard.***
+
+```shell
+ls -al
+```
+
+## Commande ***CD*** 
+La commande **CD** permet de lister tous les repertoire se trouvant dans le repertoire ou je me situe actuellement.  
+
+>[!NOTE]
+>
+>- CD : **C**hange **D**irectory.  
+
+- ***Cette syntaxe permet de se déplacer d'un repertoire à un autre.***
+
+```shell
+cd nom-du-repertoire 
+```
+
+- ***Cette syntaxe permet de revenir sur ses pas un cran en arrière.***
+
+```shell
+cd .. 
+```
+
+## Commande ***MKDIR*** 
+La commande **MKDIR** permet de lister tous les repertoire se trouvant dans le repertoire ou je me situe actuellement.  
+
+>[!NOTE]
+>
+>- MKDIR : **M**ake **D**irectory.  
+
+- ***Cette syntaxe permet de créer un nouveau repertoire.***
+
+```shell
+mkdir nom-du-repertoire 
+```
+
+- ***Cette syntaxe permet de créer un nouveau sous repertoire dans repertoire.***
+
+```shell
+mkdir -p nom-du-repertoire/nom-du-sous-repertoire 
+```
+
+>[!TIP]
+>
+>- -p : Cette option permet de créer le repertoir parent s'il n'existe pas. 
 
 
 # Authors
